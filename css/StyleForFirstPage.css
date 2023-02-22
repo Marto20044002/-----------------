@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
+footer ul li a{
+    color: black;
+    text-decoration: none;
+}
+.topinfo{
+    font-size: 18px;
+}
+.info{
+    
+    display:inline-table;
+    color: #f44236;
+    padding-left: 175px;
+    margin-top: 25px;
+}
+footer{
+    background-color: aliceblue;
+}
+.icons{
+
+    display:inline;
+    padding-left: 695px;
+    
+
+}
+.icons a{
+    height: 100px;
+    width: 100%;
+    display: inline-flex;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 50px;
+    margin: 10px;
+    box-shadow: 0 10px 10px rgb(0,0,0,0.1);
+
+    
+    background-size: 100% 200%;
+    background-position: 0% 5% ;
+    transition: background-position 0.5s, color 0.5s;
+}
+.icons a:nth-child(1){
+    
+    color: #f44236;
+    background-image: linear-gradient(#fff 50%, #f44236 50%);
+}
+.icons a:nth-child(2){
+    
+    color: #1926d3;
+    background-image: linear-gradient(#fff 50%,  #1926d3 50%);
+}
+.icons a:nth-child(3){
+    
+    color: #00acee;
+    background-image: linear-gradient(#fff 50%,  #00acee 50%);
+}
+.icons a:nth-child(4){
+    
+    color: black;
+    background-image: linear-gradient(#fff 50%,  black 50%);
+}
+.icons a:hover{
+    background-position: 0% 100% ;
+    color: #fff;   
+}
